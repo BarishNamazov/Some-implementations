@@ -13,7 +13,7 @@ int root[maxx], id = 0;
 int nxt = 0;
 struct node {
     int mid, l, r, val;
-} tree[4 * maxx * lg5];
+} tree[2 * maxx * lg5];
 
 int build(int l, int r) {
     if (l == r) {
