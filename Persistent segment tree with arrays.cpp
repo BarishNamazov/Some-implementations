@@ -1,3 +1,8 @@
+/*
+ Another implementation of the Persistent Segment Tree I wrote while learning this data structure
+ Works slightly slower than "Persistent segment tree with arrays, faster and simpler.cpp"
+ Below code is the solution for the problem: https://www.e-olymp.com/en/problems/2955
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
