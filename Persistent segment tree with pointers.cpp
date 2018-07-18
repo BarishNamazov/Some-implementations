@@ -1,3 +1,8 @@
+/*
+ Persistent segment tree written with pointers
+ Easier to code and understand, but slower than arrays
+ Below code is the solution for the problem: https://www.e-olymp.com/en/problems/2955
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
