@@ -1,8 +1,12 @@
+/*
+ Persistent Segment Tree written with arrays
+ Works considerably faster than pointers
+ Below code is the actual solution of the problem: https://www.e-olymp.com/en/problems/2955
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
 
-const int max4 = 10004;
 const int maxx = 100005;
 const int lg5 = 17;
 
