@@ -1,6 +1,13 @@
+/*
+ Implicit (Dynamic) Segment Tree written with pointers
+ Below code determines the maximum number in range with update queries,
+ can be modified easily to solve other problems as well
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
+
+const int maxx = 100005;
 
 struct node {
     int val;
@@ -39,6 +46,7 @@ int query(pnode &root, int l, int r, int i, int j) {
     return max(query(root -> l, l, mid, i, j), query(root -> r, mid + 1, r, i, j));
 }
 
+pnode roots[maxx];
 int main() {
     ios_base :: sync_with_stdio(0);
     cin.tie(0), cout.tie(0);
